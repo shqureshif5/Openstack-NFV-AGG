@@ -9,8 +9,8 @@ resource_registry:
 #  OS::TripleO::BlockStorage::Net::SoftwareConfig: /home/stack/templates1/nic-configs/cinder-storage.yaml
 #  OS::TripleO::Compute::Net::SoftwareConfig: /home/stack/templates1/nic-configs/compute.yaml
 #  OS::TripleO::Compute::Net::SoftwareConfig: /home/stack/templatesDPDK/nic-configs/computeovsdpdksriov.yaml
-  OS::TripleO::ComputeSriov::Net::SoftwareConfig: /home/stack/templatesBOND/nic-configs/computesriov.yaml
-  OS::TripleO::Controller::Net::SoftwareConfig: /home/stack/templatesBOND/nic-configs/controller.hp.yaml
+  OS::TripleO::ComputeSriov::Net::SoftwareConfig: /home/stack/templatesAGG/nic-configs/computesriov.yaml
+  OS::TripleO::Controller::Net::SoftwareConfig: /home/stack/templatesAGG/nic-configs/controller.hp.yaml
 #  OS::TripleO::ObjectStorage::Net::SoftwareConfig: /home/stack/templates1/nic-configs/swift-storage.yaml
 #  OS::TripleO::CephStorage::Net::SoftwareConfig: /home/stack/templates1/nic-configs/ceph-storage.yaml
   OS::TripleO::Services::NeutronSriovAgent: /usr/share/openstack-tripleo-heat-templates/docker/services/neutron-sriov-agent.yaml
